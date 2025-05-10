@@ -1,7 +1,7 @@
 
 const OrderStatus = ({orderId, status}) => {
   return (
-    <li>Order #{orderId}:{status} </li>
+    <li>Order #{orderId}: {status} </li>
     )
 }
 
