@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  margin: 0;
+}
+
+
+.App {
+  background-color: black; 
+  min-height: 796px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.spotify {
+  position: absolute;
+  width: 140px;
+  height: 45px;
+  left: 2%;
+  right: 90%;
+  top: 8%;
+  bottom: 82%;
+} 
+@media all and (max-width: 800px){
+  .spotify{
+    top: 5% ;
+  }
+}
+
+@media all and (max-width: 500px){
+  .spotify{
+    top: 3% ;
+  }
+}
+
+
+
+
