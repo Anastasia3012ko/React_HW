@@ -1,0 +1,28 @@
+.people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border: solid 2px rgba(58, 58, 145,0.5);
+    border-radius: 20px;
+    background-color: rgba(240, 233, 247, 0.5);
+    box-shadow: 4px 2px 4px rgb(58, 58, 145);
+    width: 10vw;
+    
+}
+.header {
+    font-size: 25px;
+    color: rgb(58, 58, 145);
+}
+.age {
+    font-size: 18px;
+}
+.delete {
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(58, 58, 145,0.8);
+    color: white;
+    font-size: 16px;
+}
