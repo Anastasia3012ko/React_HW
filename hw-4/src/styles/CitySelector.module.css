@@ -1,0 +1,26 @@
+.citySelector {
+    border: 3px solid rgb(221, 138, 242);
+    background-color: rgba(231, 174, 246,0.5);
+    border-radius: 20px;
+    width: 60vw; 
+    margin: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: rgb(100, 0, 193);
+
+}
+
+.select {
+    max-width: 25%;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid rgb(221, 138, 242);
+    border-radius: 20px;
+    box-shadow: 2px 2px hsl(0, 0%, 100%);
+    background-color: rgb(231, 174, 246);
+    color: white;
+    font-size: 16px;
+}
