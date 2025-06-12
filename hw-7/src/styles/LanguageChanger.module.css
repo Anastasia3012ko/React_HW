@@ -1,0 +1,29 @@
+.changer {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.language {
+    color: rgb(86, 86, 243);
+    font-size: 20px;
+}
+.curLang {
+    text-transform: uppercase;
+    color: rgba(86, 86, 243, 0.5);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.button {
+    cursor: pointer;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(86, 86, 243, 0.5);
+    color: white;
+    box-shadow: 4px 4px 4px rgb(174, 173, 173);
+}
+.button:hover {
+    background-color: rgb(86, 86, 243);
+    border: 2px solid palevioletred
+}

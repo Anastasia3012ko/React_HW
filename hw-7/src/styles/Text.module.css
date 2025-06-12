@@ -1,0 +1,16 @@
+.text {
+    border: 2px solid rgb(86, 86, 243);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(86, 86, 243);
+    padding: 30px;
+    font-size: 18px;
+    color: rgb(77, 3, 145);
+    line-height: 1.5;
+    background-color: rgba(86, 86, 243, 0.2);
+}
+.visible {
+    display: block;
+}
+.invisible {
+    display: none;
+}
