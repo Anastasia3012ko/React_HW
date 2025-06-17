@@ -1,5 +1,5 @@
 import React from 'react'
-import { useNavigate, useParams } from 'react-router-dom';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import styles from '../styles/Article.module.css'
 import Labrador from '../components/assets/labrador.jpg'
 import BorderCollie from '../components/assets/BorderCollie.jpg'
@@ -21,6 +21,7 @@ const articles = [
 const Article = () => {
     const { id }= useParams()
     const navigate = useNavigate()
+    const location = useLocation()
     const article = articles.find(article => article.id === id)
     
   return (
@@ -28,6 +29,7 @@ const Article = () => {
         <h3 className={styles.title}>{article.title}</h3>
         <p className={styles.text}>{article.text}</p>
         <img className={styles.img} src={article.img} alt="dogs picture" />
+        <p>We are here now: {location.pathname}</p>
         <button onClick={()=> navigate('/articlesList')}>Back to list</button>
 
     </div>
