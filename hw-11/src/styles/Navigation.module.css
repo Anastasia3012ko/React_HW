@@ -1,0 +1,19 @@
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    gap: 20px;
+    background-color: rgb(205, 245, 232);
+    width: 20%;
+    height: 100vh;
+}
+.activeLink {
+ color: rgb(0, 58, 58);
+ text-decoration: underline;
+}
+.link {
+
+    color: teal;
+}

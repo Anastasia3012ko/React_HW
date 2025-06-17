@@ -1,5 +1,26 @@
-.App {
- 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
+.App {
+    display: flex;
+}
+button {
+    cursor: pointer;
+    padding: 2%;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(95, 200, 167);
+}
+a {
+    text-decoration: none;
+    color: rgb(96, 3, 3);
+}
+
 
 
