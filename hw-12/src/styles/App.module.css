@@ -1,0 +1,18 @@
+.app{
+   display: flex;
+   flex-direction: column;
+   margin: 50px 150px;
+   font-family: Arial, sans-serif;
+   font-size: 18px;
+
+}
+.input{
+ width: 60%;
+ padding: 15px;
+ font-size: 18px;
+ background-color: rgba(188, 217, 243, 0.5);
+ border: none;
+ border-radius: 15px;
+ box-shadow: 5px 5px 5px rgb(188, 217, 243);
+
+}
