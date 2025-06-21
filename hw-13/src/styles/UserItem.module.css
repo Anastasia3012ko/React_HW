@@ -1,0 +1,10 @@
+.item {
+    padding: 8px;
+    font-style: italic;
+    font-size: 1.2rem;
+    border-bottom: 1px solid violet;
+    text-align: center;
+}
+.wrapper {
+    width: 90%;
+}

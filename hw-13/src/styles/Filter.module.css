@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input {
+    padding: 10px;
+    font-size: 1.1rem;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.input:focus {
+    background-color: rgba(217, 189, 245, 0.3);
+}
