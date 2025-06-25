@@ -1,0 +1,17 @@
+.wrapper{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: antiquewhite;
+width: 50%; 
+border-radius: 30px;
+
+}
+.list {
+    color: rgb(35, 189, 189);
+    font-size: 20px;
+}
+ h3 {
+    color: rgb(28, 126, 126);
+    font-size: 30px;
+ }
