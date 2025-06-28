@@ -44,7 +44,7 @@ function App() {
           </Toolbar>
         </AppBar>
       </Box>
-      <div className={styles.container}>
+      <container className={styles.container}>
         <Typography variant="h2">
           Wellcome to our App!!!
         </Typography>
@@ -73,7 +73,7 @@ function App() {
             </Button>
           </DialogActions>
         </Dialog>
-      </div>
+      </container>
     </div>
   )
 }
