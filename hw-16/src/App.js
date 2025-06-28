@@ -11,6 +11,7 @@ import DialogActions from '@mui/material/DialogActions'
 import DialogContent from '@mui/material/DialogContent'
 import DialogContentText from '@mui/material/DialogContentText'
 import DialogTitle from '@mui/material/DialogTitle'
+import { Container } from '@mui/material'
 
 import styles from './App.module.css'
 
@@ -44,7 +45,7 @@ function App() {
           </Toolbar>
         </AppBar>
       </Box>
-      <container className={styles.container}>
+      <Container className={styles.container}>
         <Typography variant="h2">
           Wellcome to our App!!!
         </Typography>
@@ -73,7 +74,7 @@ function App() {
             </Button>
           </DialogActions>
         </Dialog>
-      </container>
+      </Container>
     </div>
   )
 }
