@@ -1,0 +1,37 @@
+.wrapperApp {
+   display: flex;
+   justify-content: center;
+   width: 100vw;
+   height: 100vh;
+   font-family: Arial, sans-serif;
+
+
+}
+.quiz {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  border-radius: 15px;
+  background-color: rgb(223, 244, 244);
+  box-shadow: 4px 4px 4px rgb(11, 123, 123);
+}
+h1 {
+    text-align: center;
+}
+button {
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+.buttonSubmit {
+    background-color: rgb(11, 123, 123);
+}
+.buttonAgain {
+    background-color: rgb(117, 172, 44);
+}
