@@ -1,0 +1,23 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+}
+.text {
+    display: flex;
+    height: 100px;
+}
+.author {
+    align-self: flex-end;
+    margin-left: 50px;
+}
