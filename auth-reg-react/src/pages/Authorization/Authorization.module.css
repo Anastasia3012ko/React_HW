@@ -1,0 +1,38 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgba(191, 177, 205, 0.3);
+    box-shadow: 2px 2px 2px rgb(135, 125, 205);
+    width: 60%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+}
+.header {
+    font-size: 25px;
+    color: rgb(72, 61, 139);
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    font-style: italic;
+}
+button {
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
